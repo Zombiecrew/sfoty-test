@@ -1,2 +1,56 @@
-h1
-	color red 
+@import "normalize.styl"
+
+gris_sfoty =#333333
+gris_sfotyl = #818181
+a
+	text-decoration none
+body
+	font-size 16px
+	font-family: 'Varela Round', sans-serif;
+
+figure
+	margin 0
+//botones
+.button-menu
+	position absolute
+	top 50%
+	margin-top -10px
+	left .5rem
+.conteiner
+		padding 1.4rem
+		font-size 0
+		text-align center
+.border-bottom
+	border-bottom solid 1px gris_sfotyl
+.menu 
+	display none	
+.relative
+	position relative
+.name
+	color gris_sfoty
+
+.author
+	color gris_sfotyl		
+
+.header
+	height 3.5rem
+	// a
+	// 	display none
+	.title
+		font-size 1.1rem
+		line-height 3.5rem
+		margin 0
+		text-align center
+
+.song
+	width 8rem
+	display inline-block
+	font-size 1rem
+	margin-right 1rem
+	margin-bottom 1rem
+	text-align left
+	&:nth-child(even)
+		margin-right 0
+	p
+		margin .5rem 0	
+	
